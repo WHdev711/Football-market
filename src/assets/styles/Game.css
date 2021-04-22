@@ -1,0 +1,78 @@
+.game {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.game-time {
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  margin-bottom: -5px;
+  border-radius: 25px;
+  padding: 3px 10px;
+  color: #fff;
+  border: 3px solid #aaaaaa;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.teams-score {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 10px;
+  background: #27ae60;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.home-team,
+.away-team {
+  width: 43%;
+  padding: 10px 0;
+  text-align: left;
+  color: #fff;
+}
+
+.away-team {
+  text-align: right;
+}
+
+.score {
+  width: 14%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+  background: #219653;
+  color: #fff;
+  font-size: 1.1rem;
+  box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .score {
+    width: 45px;
+    position: absolute;
+    right: 0;
+    height: 75px;
+    border-radius: 0;
+    padding-top: 5px;
+  }
+
+  .home-team,
+  .away-team {
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  .away-team {
+    border-top: 2px solid #aaaaaa;
+  }
+}
