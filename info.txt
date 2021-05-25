@@ -1,0 +1,15 @@
+﻿betfair.com
+9hzaYYo5kmO1mrStCSUZshhWgfKUYRck2i5KJUIuwQY=
+appname:SponsorXchange
+user:topfreeworker123@protonmail.com
+pass:j99807jj!@#
+
+
+api-football.com
+username:Damon.p.hill@gmail.com
+
+pass:SponsorXchange
+
+the-odds-api.com
+
+key:396ec11457c81051f97b0f5bc2ca879f
