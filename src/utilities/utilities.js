@@ -16,6 +16,7 @@ export const countryflag = (country) => {
   case 'Colombia': return 'https://media.api-sports.io/flags/co.svg';
   case 'Chile': return 'https://media.api-sports.io/flags/cl.svg';
   case 'Uruguay': return 'https://media.api-sports.io/flags/uy.svg';
+  case 'China': return 'https://media.api-sports.io/flags/cn.svg';
   default: return false;
   }
 };
@@ -28,6 +29,7 @@ export const countryfilter = (country) => {
   case 'Colombia': return true;
   case 'Chile': return true;
   case 'Uruguay': return true;
+  case 'China': return true;
   default: return false;
   }
 };
